@@ -20,6 +20,7 @@ document.getElementById("5").innerHTML = jobList[4];
 let team1 = [
     'azez', 'krisna', 'amilin', 'ibnu'
 ]
+ document.getElementById("jawab2").innerHTML = team1.toString();
 
 
 // answer question no.3
@@ -34,3 +35,15 @@ function multiply(num){
 
 
 // answer question no.4
+let arr1 = ['math', 'english', 'programming'];
+let arr2 = ['geography', 'spanish', 'programming'];
+document.getElementById("jawab4").innerHTML=arr1.includes(arr2[2])
+
+
+// answer question no.5
+function send() {
+  let namastr = [document.twitter.tweet.value]
+  document.twitter.yourTweet.value = namastr;
+}
+
+// answer question no.6
